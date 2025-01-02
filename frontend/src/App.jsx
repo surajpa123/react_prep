@@ -10,6 +10,7 @@ import { Cart } from "./pages/Cart";
 import { VirtualizedList } from "./components/VirtualizedList";
 import { List } from "./pages/List";
 import { Peformance } from "./pages/Peformance";
+import { Suggestions } from "./pages/Suggestions";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/lists" element={<List />} />
             <Route path="/performance" element = {<Peformance/>} />
+            <Route path="/autoSuggestion" element={<Suggestions/>} />
           </Routes>
         </Router>
       </CartProvider>
